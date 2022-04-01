@@ -1,2 +1,2 @@
 # metasplot-termux
-install metasploit in termux and fic 2022
+install metasploit in termux and fix metasploit
