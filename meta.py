@@ -20,7 +20,7 @@ def install_metasploit():
     install = input("\033[1;33m[+] \033[1;35mMETA-G@root-# \033[1;35m")
     if install =='1':
         time.sleep(0.3)
-        os.system('pkg update && pkg upgrade -y && pkg install wget && pkg install python2 && pkg install ruby && pkg install wget && pkg install curl && pkg install openssh')
+        os.system('pkg update && pkg upgrade -y && pkg install wget -y && pkg install python2 -y && pkg install ruby -y && pkg install wget -y && pkg install curl -y && pkg install openssh -y')
         os.system('cd $HOME;wget https://raw.githubusercontent.com/efxtv/Metasploit-in-termux/main/metasploit-6-termux.sh -q;bash metasploit-6-termux.sh')
         restert()
     elif install =='2':
